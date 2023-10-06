@@ -1,0 +1,56 @@
+1. What is React?
+React is a open source javascript library which is a creation of facebook , used to create user interface in a
+ efficient manner.It lets you create reusable UI components and basically manage how data is displayed on web 
+ pages.It is mainly build to minimize direct interaction with actual DOM beause directly manuipulating the
+DOM is slow as comapred to virtual DOM which can be done by with the help of react.
+
+2. Who made React?
+React was created by Jordan Walke . He was a software engineer in a Fcebook.
+
+3. What is Babel?
+Babel is a javascript compiler or translator which is used to convert JSX code into plain javascript .JSX  
+code is not understable by every browser ,so to make it understable Babel is used .
+
+4. How does Babel convert html code in React into valid code?
+By using babel we are able to write our HTML and CSS like normal but when we run this file through
+babel,it will automatically translate all these codes into pure Javascript so that browsers understand them.
+Babel converts the HTML code in React into valid code by using JSX code and babel translater .we writ our html 
+code using JSX and by adding babel package and type:"text/babel in our script tag ,babel automatically converts 
+in into valid code which can be understand by browser.
+
+5. What is ReactDOM used for? Write an example?
+ReactDOM  is used to take react elements and convert them into real DOM elements that get rendered on the 
+web page.
+Example: 
+         <body> <h1 id="head"> </h1> </body>
+         let heading1 = document.getElementById("head")
+        let element = React.createElement("heading1",{},"Hello Masai")
+        let reactRoot = ReactDOM.createRoot(heading1)
+        reactRoot.render(element)
+
+6. What are the packages that you need to import for react to work with?
+We need two packages ,one is React package and another one is ReactDOM package to import for react to work 
+with and third one is additional which is babel package .
+
+7. How do you add react to a web application?
+
+8.What is React.createElement?
+It is used to create new react element .It takes three parameters, first -the type of element like div ,p
+,h1,etc. second -the attribute like className,idName,style,etc and the last parameter is what you want in that 
+element .
+
+9. What are the three properties that createElement accept?
+The three properties that createElement accepts are :
+1. It Specifies the type of element ("div")/("p")/("h1"),etc
+2. It takes attributes like className,idName,style,etc
+3. Sets the children of the given element i.e what do you want in that particular element like some text.
+
+10. What is the meaning of render and root?
+Render means renew only an appropriate part of information on user’s screen when the element properties 
+(props) are replaced by new ones or a component state (as set of props) changes in application.
+render means to take react element and convert it into actual DOM element to display on the web page.
+
+root is the parent element of all the other react element in our application
+
+
+ 
