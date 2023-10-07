@@ -16,7 +16,7 @@ By using babel we are able to write our HTML and CSS like normal but when we run
 babel,it will automatically translate all these codes into pure Javascript so that browsers understand them.
 Babel converts the HTML code in React into valid code by using JSX code and babel translater .we writ our html 
 code using JSX and by adding babel package and type:"text/babel in our script tag ,babel automatically converts 
-in into valid code which can be understand by browser.
+it into valid code which can be understand by browser.
 
 5. What is ReactDOM used for? Write an example?
 ReactDOM  is used to take react elements and convert them into real DOM elements that get rendered on the 
@@ -33,6 +33,11 @@ We need two packages ,one is React package and another one is ReactDOM package t
 with and third one is additional which is babel package .
 
 7. How do you add react to a web application?
+ 1. Open the HTML file and add a div on which you want to add the React implementation by giving some id.
+ 2. Add the three package to inject react library , reactDOM library and babel inside body tag .
+ 3. Add script tag to write code.
+ 4. Catch the div where you want to show your react application by using document.getElementById("id name")
+ 5. create reactElement and reactDOM and then simply render it to the root of it to display it in the actual DOM
 
 8.What is React.createElement?
 It is used to create new react element .It takes three parameters, first -the type of element like div ,p
@@ -50,7 +55,7 @@ Render means renew only an appropriate part of information on user’s screen wh
 (props) are replaced by new ones or a component state (as set of props) changes in application.
 render means to take react element and convert it into actual DOM element to display on the web page.
 
-root is the parent element of all the other react element in our application
+root is the parent element of all the other react element in our application.
 
 
  
